@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: rawbirdtoe/get-started:part-2
+    image: rawbirdtoe/get-started:latest
     deploy:
       replicas: 5
       restart_policy:
